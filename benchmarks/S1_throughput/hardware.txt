@@ -1,0 +1,5 @@
+OS: Windows-11-10.0.26200-SP0
+CPU: AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD
+Python: 3.12.0
+PyTorch: 2.4.1+cpu
+GPU: CUDA not available
