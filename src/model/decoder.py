@@ -30,7 +30,7 @@ class TransformerBlock(nn.Module):
 class TransformerDecoder(nn.Module):
     """
     Stacks multiple TransformerBlocks. 
-    The tests expect the last class in this file to be the main module[cite: 2].
+    The tests expect the last class in this file to be the main module
     """
     def __init__(self, d_model=128, n_heads=4, n_layers=2):
         super().__init__()
