@@ -361,7 +361,7 @@ def train() -> None:
                  best_checkpoint_path,
             )
 
-    print(f"Saved new best checkpoint to {best_checkpoint_path}")
+                print(f"Saved new best checkpoint to {best_checkpoint_path}")
 
 
 if __name__ == "__main__":
