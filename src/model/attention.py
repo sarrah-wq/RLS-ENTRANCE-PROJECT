@@ -46,7 +46,7 @@ class MultiHeadSelfAttention(nn.Module):
         scores = (q @ k.transpose(-2, -1)) / math.sqrt(D)
         
         if mask is not None:
-            # Mask is broadcastable to (B, 1, T, T)[cite: 3]
+            # Mask is broadcastable to (B, 1, T, T)
             # True means "may attend", False means block
             scores = scores.masked_fill(~mask, float('-inf'))
             
